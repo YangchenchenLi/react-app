@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc662e5d-150d-4cdc-8999-bb17cbfebb6e" name="Default Changelist" comment="" />
+    <list default="true" id="fc662e5d-150d-4cdc-8999-bb17cbfebb6e" name="Default Changelist" comment="first commit">
+      <change beforePath="$PROJECT_DIR$/src/components/comment-item /comment-item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/comment-item /comment-item.jsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,12 +55,16 @@
       <updated>1607234410471</updated>
       <workItem from="1607234415314" duration="1544000" />
       <workItem from="1607236305697" duration="2171000" />
-      <workItem from="1607338636950" duration="4432000" />
+      <workItem from="1607338636950" duration="4722000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
