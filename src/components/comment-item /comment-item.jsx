@@ -13,7 +13,6 @@ export default class CommentItem extends Component {
     render(){
 
         const {comment} = this.props
-        const name = 'yangchenchenli'
 
         return(
             <li className="list-group-item">
