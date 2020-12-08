@@ -14,6 +14,7 @@ export default class CommentAdd extends Component {
     }
 
     handleSubmit = () => {
+        // 此时已经通过onChange的handleNameChange和handleContentChange修改了username和content的值，state里面的内容已经修改了
         // 收集数据,并封装成comment对象
         const comment = this.state
         // 更新状态
