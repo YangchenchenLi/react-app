@@ -30,14 +30,16 @@ export default class Main extends Component {
                 // 得到响应数据
                 const result = response.data
                 console.log(result)
-
-
+                const users = result.items.map(item => {
+                    return {name: item.login, url:item.html_url, avatarUrl:item.avatar_url}
+                })
                 // 更新状态（成功）
+                this.setState({loading:false, users})
 
             })
             .catch(error => {
                 // 更新状态（失败）
-
+                this.setState({loading:false, errorMsg:error.message})
             })
     }
 
@@ -58,7 +60,7 @@ export default class Main extends Component {
                 <div className="row">
                     {
                         users.map((user, index) => (
-                            <div className="card">
+                            <div className="card" key={index}>
                                 <a href={user.url} target="_blank">
                                     <img src={user.avatarUrl} style={{width: 100}}/>
                                 </a>
