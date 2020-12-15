@@ -5,6 +5,7 @@ import Main from "./main";
 
 export default class App extends Component {
 
+    /*
     state = {
         searchName: ''
     }
@@ -12,15 +13,15 @@ export default class App extends Component {
     setSearchName = (searchName) => {
         // 更新状态
         this.setState({searchName})
-
     }
+     */
 
     render(){
 
         return(
             <div className="container">
-                <Search setSearchName={this.setSearchName}/>
-                <Main searchName={this.state.searchName}/>
+                <Search/>
+                <Main/>
             </div>
         )
     }
