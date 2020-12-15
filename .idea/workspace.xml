@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc662e5d-150d-4cdc-8999-bb17cbfebb6e" name="Default Changelist" comment="Update Exercise 2 code">
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/app.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/search.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/search.jsx" afterDir="false" />
+    <list default="true" id="fc662e5d-150d-4cdc-8999-bb17cbfebb6e" name="Default Changelist" comment="Update Exercise 2 code with PubSubJS (subscribe &amp; publish)">
+      <change beforePath="$PROJECT_DIR$/src/components/app.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src-users2/components/app.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src-users2/components/main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/search.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src-users2/components/search.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src-users2/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src-users2/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +35,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -48,6 +46,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -73,7 +72,7 @@
       <workItem from="1607406596005" duration="4297000" />
       <workItem from="1607751160676" duration="5596000" />
       <workItem from="1608007006531" duration="3653000" />
-      <workItem from="1608013636625" duration="1475000" />
+      <workItem from="1608013636625" duration="2113000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1607344353165</created>
@@ -152,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607773473811</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Update Exercise 2 code with PubSubJS (subscribe &amp; publish)">
+      <created>1608015489330</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1608015489330</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,7 +182,8 @@
     <MESSAGE value="Update some codes" />
     <MESSAGE value="Exercise 2" />
     <MESSAGE value="Update Exercise 2 code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Exercise 2 code" />
+    <MESSAGE value="Update Exercise 2 code with PubSubJS (subscribe &amp; publish)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Exercise 2 code with PubSubJS (subscribe &amp; publish)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
